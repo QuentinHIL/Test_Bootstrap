@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  font-family: "Montserrat";
+}
+body #sectionone {
+  background-image: url(./assets/fondsection1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #sectionone #contonesectionone h2 {
+  font-size: 5em;
+}
+
+@media only screen and (max-width: 1200px) {
+  #sectionthree #contcarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.imageronde {
+  border-radius: 10em;
+}/*# sourceMappingURL=style.css.map */
